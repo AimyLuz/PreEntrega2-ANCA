@@ -1,0 +1,86 @@
+@import url("https://fonts.googleapis.com/css2?family=Caveat&display=swap");
+
+body {
+    background-color: rgb(67, 186, 241);
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: "Caveat";
+}
+
+header {
+    display: flex;
+    justify-content: center;
+}
+
+h1 {
+    font-size: 4rem;
+    font-weight: 700;
+    margin: 0;
+}
+
+.todo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.comidas {
+    padding: 0 20px 0 20px;
+    margin: 0 20px 0 240px;
+}
+
+.img {
+    padding: 0 20px 0 20px;
+    margin: 0 20px 0 20px;
+}
+
+.amor {
+    padding: 0 10px 0 20px;
+    margin: 0 10px 0 20px;
+}
+
+.todo div p {
+    font-size: 1.8rem;
+    font-weight: 400;
+}
+
+h2 {
+    font-size: 2.5rem;
+    font-weight: 700;
+}
+
+img {
+    border-radius: 68px;
+    width: 80%;
+}
+
+.section2 {
+    display: flex;
+    justify-content: center;
+}
+
+.boton {
+    font-size: 2rem;
+    background-color: rgb(229, 127, 255);
+    height: 100px;
+    width: 400px;
+    border: solid, black, 5px;
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    
+}
+
+.boton:hover {
+    box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24),
+        0 17px 50px 0 rgba(0, 0, 0, 0.19);
+}
+footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: end;
+}
+footer div h3 {
+    font-size: 1.5rem;
+}
+footer div ol li {
+    font-size: 1.3rem;
+}
