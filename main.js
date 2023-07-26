@@ -308,6 +308,6 @@ const deNoche = [
     
     }
 
-    console.log("Tu mascota está MUERTA");
+    console.log( nombre + " está MUERTA");
     alert("Tu mascota murió ✝");
 }
