@@ -241,9 +241,10 @@ const deNoche = [
                 console.log(comidaElegida.mensaje);
                 console.log("Ahora la salud de " + nombre + " es de: " + salud);
                 console.log("y la energía de " + nombre + " es de: " + energia);
-                alert ("Es de noche 🌙, hora de dormir... ZzZzZ...");
+                
 
                 if (salud > 0 && energia > 0) {
+                    alert ("Es de noche 🌙, hora de dormir... ZzZzZ...");
                     const azar = Math.floor(Math.random() * deNoche.length);
                     salud += deNoche[azar].efecto.salud;
                     energia += deNoche[azar].efecto.energia;
@@ -279,9 +280,10 @@ const deNoche = [
                 console.log(amorElegido.mensaje);
                 console.log("Ahora la salud de " + nombre + " es de: " + salud);
                 console.log("Y la energía de " + nombre + " es de: " + energia);
-                alert ("Es de noche 🌙, hora de dormir... ZzZzZ...");
+                
 
                 if (salud > 0 && energia > 0) {
+                    alert ("Es de noche 🌙, hora de dormir... ZzZzZ...");
                     const azar = Math.floor(Math.random() * deNoche.length);
                     salud += deNoche[azar].efecto.salud;
                     energia += deNoche[azar].efecto.energia;
