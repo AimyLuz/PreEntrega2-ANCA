@@ -245,7 +245,7 @@ const deNoche = [
 
                 if (salud > 0 && energia > 0) {
                     alert ("Es de noche 🌙, hora de dormir... ZzZzZ...");
-                    const azar = Math.floor(Math.random() * deNoche.length);
+                    const azar = Math.floor(Math.random() * (deNoche.length + 1));
                     salud += deNoche[azar].efecto.salud;
                     energia += deNoche[azar].efecto.energia;
                     salud = Math.min(salud, 100);
@@ -284,7 +284,7 @@ const deNoche = [
 
                 if (salud > 0 && energia > 0) {
                     alert ("Es de noche 🌙, hora de dormir... ZzZzZ...");
-                    const azar = Math.floor(Math.random() * deNoche.length);
+                    const azar = Math.floor(Math.random() * (deNoche.length + 1));
                     salud += deNoche[azar].efecto.salud;
                     energia += deNoche[azar].efecto.energia;
                     salud = Math.min(salud, 100);
