@@ -117,7 +117,7 @@ function inicio() {
 const deNoche = [
 {
     nombre: "sueño",
-    mensaje: "Durante la noche " + nombre + "soñó que el perro del vecino le pinchaba su pelota favorita. Se puso muy triste y se levantó asustado. Perdió -25 de salud y de energía.",
+    mensaje: "Durante la noche " + nombre + " soñó que el perro del vecino le pinchaba su pelota favorita. Se puso muy triste y se levantó asustado. Perdió -25 de salud y de energía.",
     efecto: 
     {
      salud: -25,
